@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.card {
+  background-size: cover;
+  background: white;
+  height: 250px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin: 5px;
+  text-align: center;
+}
+
+.card img{
+  height: 160px;
+  width:100%;
+  object-fit: cover;
+}
+
+.card h2{
+  margin: 0px;
+  font-size: 16px;
+}
+
+.card p{
+  margin: 0px;
+  font-size: 16px;
+  opacity: 0.7;
+}
